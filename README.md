@@ -1,2 +1,2 @@
-# ADCoctoSPI01
-Octal input high-speed ADC
+# ADCoctoSPI01A - Octal input high-speed ADC
+
