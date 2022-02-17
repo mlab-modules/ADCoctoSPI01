@@ -1,8 +1,15 @@
+[Czech](./README.cs.md)
+<!--- module --->
 # ADCoctoSPI01A - Octal input high-speed ADC
 
+<!--- Emodule --->
 
-![PCRD06A](doc/src/img/ADCoctoSPI01A_render.png) 
+<!--- subtitle --->
+<!--- Esubtitle --->
 
+![ADCoctoSPI01A](doc/src/img/ADCoctoSPI01A_render.png)
+
+<!--- description --->
 
 ## Parameters
 
@@ -13,3 +20,5 @@
 | Service interface | SPI interface |  |
 | Operating and storage temperature | -20 - +40°C |  |
 | Operational input voltage | 3.6 - 5.4V | |
+
+<!--- Edescription --->
