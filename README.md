@@ -5,6 +5,7 @@
 <!--- Emodule --->
 
 <!--- subtitle --->
+Eight-channel fast A/D converter
 <!--- Esubtitle --->
 
 ![ADCoctoSPI01A](doc/src/img/ADCoctoSPI01A_render.png)

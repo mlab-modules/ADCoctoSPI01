@@ -4,9 +4,12 @@
 # ADCoctoSPI01A
 <!--- Emodule --->
 
-<!--- subtitle --->ADCoctoSPI01A<!--- Esubtitle --->
+<!--- subtitle --->Osmikanálový A/D převodník<!--- Esubtitle --->
 
 ![ADCoctoSPI01A]()
 
-<!--- description --->Osmikanálový rychlý ADC se seriovým výstupem dat<!--- Edescription --->
-            
+<!--- description --->
+
+Velmi rychlý A/D převodník s osmi simultálně vzorkovanými vstupy a seriovým výstupem dat
+
+<!--- Edescription --->
