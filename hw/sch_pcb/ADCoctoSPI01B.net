@@ -1,0 +1,2775 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\Users\MaxAli\Documents\GitHub\DENGS\HW\modules\ADCoctoSPI01A\SCH_PCB\ADCoctoSPI01A.sch) 
+    (date "1. 7. 2018 0:12:58") 
+    (tool "Eeschema (5.0.0-rc2-dev-411-g5ef715f3d)") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title NAME) 
+        (company "Mlab www.mlab.cz") 
+        (rev REV) 
+        (date %F) 
+        (source ADCoctoSPI01B.sch) 
+        (comment 
+          (number 1) 
+          (value VERSION)) 
+        (comment 
+          (number 2) 
+          (value "Short description \\nTwo lines are maximum")) 
+        (comment 
+          (number 3) 
+          (value "nickname <email@example.com>")) 
+        (comment 
+          (number 4) 
+          (value BSD))))) 
+  (components 
+    (comp 
+      (ref J1) 
+      (value +5V) 
+      (footprint Mlab_Pin_Headers:Straight_2x03) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HEADER_2x03_PARALLEL-MLAB_HEADER)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 549D65BC)) 
+    (comp 
+      (ref M1) 
+      (value HOLE) 
+      (footprint VIAS:MountingHole_3mm) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HOLE-MLAB_MECHANICAL)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 549D7549)) 
+    (comp 
+      (ref M2) 
+      (value HOLE) 
+      (footprint VIAS:MountingHole_3mm) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HOLE-MLAB_MECHANICAL)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 549D7628)) 
+    (comp 
+      (ref M3) 
+      (value HOLE) 
+      (footprint VIAS:MountingHole_3mm) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HOLE-MLAB_MECHANICAL)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 549D7646)) 
+    (comp 
+      (ref M4) 
+      (value HOLE) 
+      (footprint VIAS:MountingHole_3mm) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HOLE-MLAB_MECHANICAL)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 549D7665)) 
+    (comp 
+      (ref D1) 
+      (value M4) 
+      (footprint Diodes_SMD:D_SMA) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part D_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 55622FB7)) 
+    (comp 
+      (ref C1) 
+      (value 100uF/10V) 
+      (footprint Capacitors_SMD:C_1210_HandSoldering) 
+      (datasheet https://www.tme.eu/sk/katalog/#search=100uf+1210&s_field=accuracy&s_order=DESC&id_category=113185&page=1) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 55623093)) 
+    (comp 
+      (ref J2) 
+      (value SATA7-67491-1030) 
+      (footprint Mlab_CON:SATA-7_THT_VERT_2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part SATA7-67491-1030-MLAB_CONNECTORS)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999D1AE)) 
+    (comp 
+      (ref C3) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999D4A4)) 
+    (comp 
+      (ref R1) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999D4EB)) 
+    (comp 
+      (ref R2) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999D6A7)) 
+    (comp 
+      (ref R3) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999EC86)) 
+    (comp 
+      (ref R4) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999ECD6)) 
+    (comp 
+      (ref R5) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999F1A7)) 
+    (comp 
+      (ref R6) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999F91F)) 
+    (comp 
+      (ref R7) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999F99B)) 
+    (comp 
+      (ref R8) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999FA2B)) 
+    (comp 
+      (ref C4) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A04D1)) 
+    (comp 
+      (ref C5) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A052B)) 
+    (comp 
+      (ref C6) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0878)) 
+    (comp 
+      (ref C7) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0924)) 
+    (comp 
+      (ref C8) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A09E2)) 
+    (comp 
+      (ref C9) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0A4A)) 
+    (comp 
+      (ref C10) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0AB5)) 
+    (comp 
+      (ref C11) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0B1D)) 
+    (comp 
+      (ref C12) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0B8A)) 
+    (comp 
+      (ref C13) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0BFA)) 
+    (comp 
+      (ref C14) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0F5D)) 
+    (comp 
+      (ref C15) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A0FCF)) 
+    (comp 
+      (ref C16) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A104A)) 
+    (comp 
+      (ref C17) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A10C6)) 
+    (comp 
+      (ref C18) 
+      (value 10nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A1145)) 
+    (comp 
+      (ref J3) 
+      (value SATA7-67491-1030) 
+      (footprint Mlab_CON:SATA-7_THT_VERT_2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part SATA7-67491-1030-MLAB_CONNECTORS)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A3865)) 
+    (comp 
+      (ref J4) 
+      (value SATA7-67491-1030) 
+      (footprint Mlab_CON:SATA-7_THT_VERT_2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part SATA7-67491-1030-MLAB_CONNECTORS)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A42A4)) 
+    (comp 
+      (ref J5) 
+      (value SATA7-67491-1030) 
+      (footprint Mlab_CON:SATA-7_THT_VERT_2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part SATA7-67491-1030-MLAB_CONNECTORS)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599A435A)) 
+    (comp 
+      (ref J6) 
+      (value SAS_mini_1888174) 
+      (footprint Mlab_CON:SAS_mini_1888174) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part SAS_mini_1888174-MLAB_CONNECTORS)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 599B64A6)) 
+    (comp 
+      (ref C19) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A13EC5)) 
+    (comp 
+      (ref C20) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A14419)) 
+    (comp 
+      (ref C21) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A14541)) 
+    (comp 
+      (ref U2) 
+      (value LM1117MP-1,8/NO) 
+      (footprint TO_SOT_Packages_SMD:SOT-223-3_TabPin2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part LD1117S18TR-RESCUE-ADCoctoSPI01A)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A1F3E1)) 
+    (comp 
+      (ref U3) 
+      (value LM1117MP-3,3/NO) 
+      (footprint TO_SOT_Packages_SMD:SOT-223-3_TabPin2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part LD1117S33TR-RESCUE-ADCoctoSPI01A)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A1F502)) 
+    (comp 
+      (ref L3) 
+      (value BLM21PG300SN1D) 
+      (footprint Mlab_R:SMD-0805) 
+      (datasheet https://www.tme.eu/en/details/dl0805-0.47/smd-0805-inductors/ferrocore/dl0805-r47/) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part L-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A254AF)) 
+    (comp 
+      (ref L2) 
+      (value BLM21PG300SN1D) 
+      (footprint Mlab_R:SMD-0805) 
+      (datasheet https://www.tme.eu/en/details/dl0805-0.47/smd-0805-inductors/ferrocore/dl0805-r47/) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part L-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A25C29)) 
+    (comp 
+      (ref C31) 
+      (value 10uF) 
+      (footprint Mlab_R:SMD-0805) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A26787)) 
+    (comp 
+      (ref C28) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A28164)) 
+    (comp 
+      (ref C26) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A29025)) 
+    (comp 
+      (ref C27) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A29D1B)) 
+    (comp 
+      (ref C30) 
+      (value 10uF) 
+      (footprint Mlab_R:SMD-0805) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A2A2A7)) 
+    (comp 
+      (ref C29) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A2B611)) 
+    (comp 
+      (ref C23) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A3569F)) 
+    (comp 
+      (ref C22) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59A37B41)) 
+    (comp 
+      (ref C33) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D27358)) 
+    (comp 
+      (ref C34) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D2754D)) 
+    (comp 
+      (ref C35) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D27637)) 
+    (comp 
+      (ref C36) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D2662A)) 
+    (comp 
+      (ref C37) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D3558A)) 
+    (comp 
+      (ref C38) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D35686)) 
+    (comp 
+      (ref J7) 
+      (value SATA7-67491-1030) 
+      (footprint Mlab_CON:SATA-7_THT_VERT_2) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part SATA7-67491-1030-MLAB_CONNECTORS)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D358B2)) 
+    (comp 
+      (ref C39) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D78B42)) 
+    (comp 
+      (ref J10) 
+      (value HEADER_1x02) 
+      (footprint Mlab_Pin_Headers:Straight_1x02) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HEADER_1x02-MLAB_HEADER)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D7AE1A)) 
+    (comp 
+      (ref R16) 
+      (value 10k) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D90077)) 
+    (comp 
+      (ref R15) 
+      (value 10k) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D9016A)) 
+    (comp 
+      (ref R14) 
+      (value 10k) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D91B4A)) 
+    (comp 
+      (ref R13) 
+      (value 50) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D91F98)) 
+    (comp 
+      (ref R12) 
+      (value 10k) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D95E9E)) 
+    (comp 
+      (ref R17) 
+      (value 10k) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59D8FE45)) 
+    (comp 
+      (ref C2) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 59DAA64D)) 
+    (comp 
+      (ref U1) 
+      (value AFE5801) 
+      (footprint Mlab_IO:QFN-64-1EP_9x9mm_Pitch0.5mm) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part AFE5801-DENGS_lib)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5999BBF0)) 
+    (comp 
+      (ref J11) 
+      (value HEADER_2x04) 
+      (footprint Mlab_Pin_Headers:Straight_2x04) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HEADER_2x04-MLAB_HEADER)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A043F43)) 
+    (comp 
+      (ref R9) 
+      (value 100) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A73A855)) 
+    (comp 
+      (ref C24) 
+      (value 100nF) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A73AAD3)) 
+    (comp 
+      (ref R20) 
+      (value 127) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A60DCA7)) 
+    (comp 
+      (ref R10) 
+      (value 127) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A60DEDE)) 
+    (comp 
+      (ref R11) 
+      (value 83) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8110FE)) 
+    (comp 
+      (ref R21) 
+      (value 83) 
+      (footprint Mlab_R:SMD-0603) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part R-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8984D3)) 
+    (comp 
+      (ref L6) 
+      (value BLM21PG300SN1D) 
+      (footprint Mlab_R:SMD-0805) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part L-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A9B9CF9)) 
+    (comp 
+      (ref C25) 
+      (value 100n) 
+      (footprint Mlab_C:SMD-0603_narrow) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part C_Small-device)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A9BA3F8)) 
+    (comp 
+      (ref J9) 
+      (value HEADER_1x02) 
+      (footprint Mlab_Pin_Headers:Straight_1x02) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HEADER_1x02-MLAB_HEADER)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A81DD54)) 
+    (comp 
+      (ref J8) 
+      (value HEADER_1x02) 
+      (footprint Mlab_Pin_Headers:Straight_1x02) 
+      (libsource 
+        (lib ADCoctoSPI01A-rescue) 
+        (part HEADER_1x02-MLAB_HEADER)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A81E03D))) 
+  (libparts 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part AFE5801-DENGS_lib) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) AFE5801-DENGS_lib)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name IN1P) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name IN1M) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name IN2P) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name IN2M) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name IN3P) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name IN3M) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name IN4P) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name IN4M) 
+          (type input)) 
+        (pin 
+          (num 9) 
+          (name IN5P) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name IN5M) 
+          (type input)) 
+        (pin 
+          (num 11) 
+          (name IN6P) 
+          (type input)) 
+        (pin 
+          (num 12) 
+          (name IN6M) 
+          (type input)) 
+        (pin 
+          (num 13) 
+          (name IN7P) 
+          (type input)) 
+        (pin 
+          (num 14) 
+          (name IN7M) 
+          (type input)) 
+        (pin 
+          (num 15) 
+          (name IN8P) 
+          (type input)) 
+        (pin 
+          (num 16) 
+          (name IN8M) 
+          (type input)) 
+        (pin 
+          (num 17) 
+          (name VCM) 
+          (type input)) 
+        (pin 
+          (num 18) 
+          (name AVDD3) 
+          (type input)) 
+        (pin 
+          (num 19) 
+          (name AVDD18) 
+          (type input)) 
+        (pin 
+          (num 20) 
+          (name AVSS) 
+          (type input)) 
+        (pin 
+          (num 21) 
+          (name CLKINP) 
+          (type input)) 
+        (pin 
+          (num 22) 
+          (name CLKINM) 
+          (type input)) 
+        (pin 
+          (num 23) 
+          (name AVSS) 
+          (type input)) 
+        (pin 
+          (num 24) 
+          (name AVDD18) 
+          (type input)) 
+        (pin 
+          (num 25) 
+          (name VREF_IN) 
+          (type input)) 
+        (pin 
+          (num 26) 
+          (name NC) 
+          (type input)) 
+        (pin 
+          (num 27) 
+          (name NC) 
+          (type input)) 
+        (pin 
+          (num 28) 
+          (name DVDD18) 
+          (type input)) 
+        (pin 
+          (num 29) 
+          (name DVSS) 
+          (type input)) 
+        (pin 
+          (num 30) 
+          (name DVDD18) 
+          (type input)) 
+        (pin 
+          (num 31) 
+          (name D8M) 
+          (type input)) 
+        (pin 
+          (num 32) 
+          (name D8P) 
+          (type input)) 
+        (pin 
+          (num 33) 
+          (name D7M) 
+          (type input)) 
+        (pin 
+          (num 34) 
+          (name D7P) 
+          (type input)) 
+        (pin 
+          (num 35) 
+          (name D6M) 
+          (type input)) 
+        (pin 
+          (num 36) 
+          (name D6P) 
+          (type input)) 
+        (pin 
+          (num 37) 
+          (name D5M) 
+          (type input)) 
+        (pin 
+          (num 38) 
+          (name D5P) 
+          (type input)) 
+        (pin 
+          (num 39) 
+          (name FCLKM) 
+          (type input)) 
+        (pin 
+          (num 40) 
+          (name FCLKP) 
+          (type input)) 
+        (pin 
+          (num 41) 
+          (name DCLKM) 
+          (type input)) 
+        (pin 
+          (num 42) 
+          (name DCLKP) 
+          (type input)) 
+        (pin 
+          (num 43) 
+          (name D4M) 
+          (type input)) 
+        (pin 
+          (num 44) 
+          (name D4P) 
+          (type input)) 
+        (pin 
+          (num 45) 
+          (name D3M) 
+          (type input)) 
+        (pin 
+          (num 46) 
+          (name D3P) 
+          (type input)) 
+        (pin 
+          (num 47) 
+          (name D2M) 
+          (type input)) 
+        (pin 
+          (num 48) 
+          (name D2P) 
+          (type input)) 
+        (pin 
+          (num 49) 
+          (name D1M) 
+          (type input)) 
+        (pin 
+          (num 50) 
+          (name D1P) 
+          (type input)) 
+        (pin 
+          (num 51) 
+          (name DVDD18) 
+          (type input)) 
+        (pin 
+          (num 52) 
+          (name DVSS) 
+          (type input)) 
+        (pin 
+          (num 53) 
+          (name SDOUT) 
+          (type input)) 
+        (pin 
+          (num 54) 
+          (name SEN) 
+          (type input)) 
+        (pin 
+          (num 55) 
+          (name SDATA) 
+          (type input)) 
+        (pin 
+          (num 56) 
+          (name SCLK) 
+          (type input)) 
+        (pin 
+          (num 57) 
+          (name RESET) 
+          (type input)) 
+        (pin 
+          (num 58) 
+          (name SYNC) 
+          (type input)) 
+        (pin 
+          (num 59) 
+          (name PDN) 
+          (type input)) 
+        (pin 
+          (num 60) 
+          (name NC) 
+          (type input)) 
+        (pin 
+          (num 61) 
+          (name AVSS) 
+          (type input)) 
+        (pin 
+          (num 62) 
+          (name AVDD18) 
+          (type input)) 
+        (pin 
+          (num 63) 
+          (name AVSS) 
+          (type input)) 
+        (pin 
+          (num 64) 
+          (name VCM) 
+          (type input)) 
+        (pin 
+          (num 65) 
+          (name AVSS) 
+          (type input)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part C_Small-device) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small-device)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part D_Small-device) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *SingleDiode) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D_Small-device)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part HEADER_1x02-MLAB_HEADER) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) HEADER_1x02-MLAB_HEADER)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type input)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part HEADER_2x03_PARALLEL-MLAB_HEADER) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) HEADER_2x03_PARALLEL-MLAB_HEADER)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type input)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part HEADER_2x04-MLAB_HEADER) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) HEADER_2x04-MLAB_HEADER)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type input)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part HOLE-MLAB_MECHANICAL) 
+      (fields 
+        (field 
+          (name Reference) M) 
+        (field 
+          (name Value) HOLE-MLAB_MECHANICAL)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type input)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part L-device) 
+      (footprints 
+        (fp Choke_*) 
+        (fp *Coil*) 
+        (fp Inductor_*) 
+        (fp L_*)) 
+      (fields 
+        (field 
+          (name Reference) L) 
+        (field 
+          (name Value) L-device)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part LD1117S18TR-RESCUE-ADCoctoSPI01A) 
+      (footprints 
+        (fp SOT223)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LD1117S18TR-RESCUE-ADCoctoSPI01A) 
+        (field 
+          (name Footprint) TO_SOT_Packages_SMD:SOT-223)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name VO) 
+          (type power_out)) 
+        (pin 
+          (num 3) 
+          (name VI) 
+          (type power_in)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part LD1117S33TR-RESCUE-ADCoctoSPI01A) 
+      (footprints 
+        (fp SOT223)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LD1117S33TR-RESCUE-ADCoctoSPI01A) 
+        (field 
+          (name Footprint) TO_SOT_Packages_SMD:SOT-223)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name VO) 
+          (type power_out)) 
+        (pin 
+          (num 3) 
+          (name VI) 
+          (type power_in)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part R-device) 
+      (footprints 
+        (fp R_*) 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R-device)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part SAS_mini_1888174-MLAB_CONNECTORS) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) SAS_mini_1888174-MLAB_CONNECTORS)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num A1) 
+          (name A1) 
+          (type BiDi)) 
+        (pin 
+          (num A2) 
+          (name A2) 
+          (type BiDi)) 
+        (pin 
+          (num A3) 
+          (name A3) 
+          (type BiDi)) 
+        (pin 
+          (num A4) 
+          (name A4) 
+          (type BiDi)) 
+        (pin 
+          (num A5) 
+          (name A5) 
+          (type BiDi)) 
+        (pin 
+          (num A6) 
+          (name A6) 
+          (type BiDi)) 
+        (pin 
+          (num A7) 
+          (name A7) 
+          (type BiDi)) 
+        (pin 
+          (num A8) 
+          (name A8) 
+          (type BiDi)) 
+        (pin 
+          (num A9) 
+          (name A9) 
+          (type BiDi)) 
+        (pin 
+          (num A10) 
+          (name A10) 
+          (type BiDi)) 
+        (pin 
+          (num A11) 
+          (name A11) 
+          (type BiDi)) 
+        (pin 
+          (num A12) 
+          (name A12) 
+          (type BiDi)) 
+        (pin 
+          (num A13) 
+          (name A13) 
+          (type BiDi)) 
+        (pin 
+          (num A14) 
+          (name A14) 
+          (type BiDi)) 
+        (pin 
+          (num A15) 
+          (name A15) 
+          (type BiDi)) 
+        (pin 
+          (num A16) 
+          (name A16) 
+          (type BiDi)) 
+        (pin 
+          (num A17) 
+          (name A17) 
+          (type BiDi)) 
+        (pin 
+          (num A18) 
+          (name A18) 
+          (type BiDi)) 
+        (pin 
+          (num B1) 
+          (name B1) 
+          (type BiDi)) 
+        (pin 
+          (num B2) 
+          (name B2) 
+          (type BiDi)) 
+        (pin 
+          (num B3) 
+          (name B3) 
+          (type BiDi)) 
+        (pin 
+          (num B4) 
+          (name B4) 
+          (type BiDi)) 
+        (pin 
+          (num B5) 
+          (name B5) 
+          (type BiDi)) 
+        (pin 
+          (num B6) 
+          (name B6) 
+          (type BiDi)) 
+        (pin 
+          (num B7) 
+          (name B7) 
+          (type BiDi)) 
+        (pin 
+          (num B8) 
+          (name B8) 
+          (type BiDi)) 
+        (pin 
+          (num B9) 
+          (name B9) 
+          (type BiDi)) 
+        (pin 
+          (num B10) 
+          (name B10) 
+          (type BiDi)) 
+        (pin 
+          (num B11) 
+          (name B11) 
+          (type BiDi)) 
+        (pin 
+          (num B12) 
+          (name B12) 
+          (type BiDi)) 
+        (pin 
+          (num B13) 
+          (name B13) 
+          (type BiDi)) 
+        (pin 
+          (num B14) 
+          (name B14) 
+          (type BiDi)) 
+        (pin 
+          (num B15) 
+          (name B15) 
+          (type BiDi)) 
+        (pin 
+          (num B16) 
+          (name B16) 
+          (type BiDi)) 
+        (pin 
+          (num B17) 
+          (name B17) 
+          (type BiDi)) 
+        (pin 
+          (num B18) 
+          (name B18) 
+          (type BiDi)))) 
+    (libpart 
+      (lib ADCoctoSPI01A-rescue) 
+      (part SATA7-67491-1030-MLAB_CONNECTORS) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) SATA7-67491-1030-MLAB_CONNECTORS) 
+        (field 
+          (name Footprint) MOLEX_67491-1030)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name 4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name 5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name 6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name 7) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical ADCoctoSPI01A-rescue) 
+      (uri C:\Users\MaxAli\Documents\GitHub\DENGS\HW\modules\ADCoctoSPI01A\SCH_PCB/ADCoctoSPI01A-rescue.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(C39-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 25)) 
+      (node 
+        (ref C39) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name "Net-(U1-Pad26)") 
+      (node 
+        (ref U1) 
+        (pin 26))) 
+    (net 
+      (code 3) 
+      (name "Net-(U1-Pad27)") 
+      (node 
+        (ref U1) 
+        (pin 27))) 
+    (net 
+      (code 4) 
+      (name DVDD) 
+      (node 
+        (ref U1) 
+        (pin 30)) 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref C35) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 51)) 
+      (node 
+        (ref C34) 
+        (pin 1)) 
+      (node 
+        (ref C28) 
+        (pin 2)) 
+      (node 
+        (ref C33) 
+        (pin 1)) 
+      (node 
+        (ref L3) 
+        (pin 1)) 
+      (node 
+        (ref C31) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 28))) 
+    (net 
+      (code 5) 
+      (name "Net-(J11-Pad4)") 
+      (node 
+        (ref U1) 
+        (pin 54)) 
+      (node 
+        (ref J11) 
+        (pin 4)) 
+      (node 
+        (ref R17) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name "Net-(J11-Pad2)") 
+      (node 
+        (ref J11) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 53))) 
+    (net 
+      (code 7) 
+      (name GND) 
+      (node 
+        (ref J6) 
+        (pin B12)) 
+      (node 
+        (ref J6) 
+        (pin B15)) 
+      (node 
+        (ref J6) 
+        (pin B18)) 
+      (node 
+        (ref C20) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin B4)) 
+      (node 
+        (ref C19) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 5)) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref M4) 
+        (pin 1)) 
+      (node 
+        (ref M3) 
+        (pin 1)) 
+      (node 
+        (ref M2) 
+        (pin 1)) 
+      (node 
+        (ref M1) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 6)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref C24) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 1)) 
+      (node 
+        (ref J11) 
+        (pin 8)) 
+      (node 
+        (ref C25) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin B7)) 
+      (node 
+        (ref J8) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin A4)) 
+      (node 
+        (ref J6) 
+        (pin B1)) 
+      (node 
+        (ref J6) 
+        (pin A7)) 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref C35) 
+        (pin 2)) 
+      (node 
+        (ref C34) 
+        (pin 2)) 
+      (node 
+        (ref C33) 
+        (pin 2)) 
+      (node 
+        (ref C36) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 1)) 
+      (node 
+        (ref C29) 
+        (pin 1)) 
+      (node 
+        (ref C30) 
+        (pin 2)) 
+      (node 
+        (ref C27) 
+        (pin 1)) 
+      (node 
+        (ref C26) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref C22) 
+        (pin 1)) 
+      (node 
+        (ref C23) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 4)) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref J3) 
+        (pin 7)) 
+      (node 
+        (ref J3) 
+        (pin 4)) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref C21) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin A18)) 
+      (node 
+        (ref J6) 
+        (pin A15)) 
+      (node 
+        (ref J6) 
+        (pin A12)) 
+      (node 
+        (ref J6) 
+        (pin A1)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 7)) 
+      (node 
+        (ref J5) 
+        (pin 4)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 7)) 
+      (node 
+        (ref J4) 
+        (pin 4)) 
+      (node 
+        (ref C28) 
+        (pin 1)) 
+      (node 
+        (ref C31) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 7)) 
+      (node 
+        (ref R12) 
+        (pin 1)) 
+      (node 
+        (ref R13) 
+        (pin 2)) 
+      (node 
+        (ref R14) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 7)) 
+      (node 
+        (ref C39) 
+        (pin 1)) 
+      (node 
+        (ref J10) 
+        (pin 2)) 
+      (node 
+        (ref R21) 
+        (pin 1)) 
+      (node 
+        (ref R11) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 52)) 
+      (node 
+        (ref U1) 
+        (pin 65)) 
+      (node 
+        (ref U1) 
+        (pin 63)) 
+      (node 
+        (ref U1) 
+        (pin 61)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 29)) 
+      (node 
+        (ref U1) 
+        (pin 23)) 
+      (node 
+        (ref U1) 
+        (pin 20))) 
+    (net 
+      (code 8) 
+      (name "Net-(U1-Pad60)") 
+      (node 
+        (ref U1) 
+        (pin 60))) 
+    (net 
+      (code 9) 
+      (name "Net-(J7-Pad5)") 
+      (node 
+        (ref J7) 
+        (pin 5))) 
+    (net 
+      (code 10) 
+      (name "Net-(J7-Pad6)") 
+      (node 
+        (ref J7) 
+        (pin 6))) 
+    (net 
+      (code 11) 
+      (name "Net-(J6-PadA10)") 
+      (node 
+        (ref J6) 
+        (pin A10))) 
+    (net 
+      (code 12) 
+      (name "Net-(J6-PadA11)") 
+      (node 
+        (ref J6) 
+        (pin A11))) 
+    (net 
+      (code 13) 
+      (name "Net-(J6-PadB11)") 
+      (node 
+        (ref J6) 
+        (pin B11))) 
+    (net 
+      (code 14) 
+      (name "Net-(J6-PadB10)") 
+      (node 
+        (ref J6) 
+        (pin B10))) 
+    (net 
+      (code 15) 
+      (name "Net-(J11-Pad1)") 
+      (node 
+        (ref J11) 
+        (pin 1)) 
+      (node 
+        (ref R12) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 59))) 
+    (net 
+      (code 16) 
+      (name "Net-(J11-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 58)) 
+      (node 
+        (ref J11) 
+        (pin 3)) 
+      (node 
+        (ref R13) 
+        (pin 1))) 
+    (net 
+      (code 17) 
+      (name /FCLK_N) 
+      (node 
+        (ref U1) 
+        (pin 39)) 
+      (node 
+        (ref J6) 
+        (pin B16))) 
+    (net 
+      (code 18) 
+      (name /FCLK_P) 
+      (node 
+        (ref J6) 
+        (pin B17)) 
+      (node 
+        (ref U1) 
+        (pin 40))) 
+    (net 
+      (code 19) 
+      (name /D1_N) 
+      (node 
+        (ref J6) 
+        (pin A3)) 
+      (node 
+        (ref U1) 
+        (pin 49))) 
+    (net 
+      (code 20) 
+      (name "Net-(C5-Pad2)") 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 3))) 
+    (net 
+      (code 21) 
+      (name "Net-(C16-Pad2)") 
+      (node 
+        (ref J5) 
+        (pin 5)) 
+      (node 
+        (ref C16) 
+        (pin 2)) 
+      (node 
+        (ref R7) 
+        (pin 2))) 
+    (net 
+      (code 22) 
+      (name /IN5_P) 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref C11) 
+        (pin 1))) 
+    (net 
+      (code 23) 
+      (name /IN5_N) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref C12) 
+        (pin 1))) 
+    (net 
+      (code 24) 
+      (name /IN7_P) 
+      (node 
+        (ref U1) 
+        (pin 13)) 
+      (node 
+        (ref C15) 
+        (pin 1))) 
+    (net 
+      (code 25) 
+      (name "Net-(C13-Pad2)") 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref C13) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 3))) 
+    (net 
+      (code 26) 
+      (name /IN7_N) 
+      (node 
+        (ref C16) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 14))) 
+    (net 
+      (code 27) 
+      (name "Net-(C17-Pad2)") 
+      (node 
+        (ref J5) 
+        (pin 3)) 
+      (node 
+        (ref C17) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 1))) 
+    (net 
+      (code 28) 
+      (name DVDD3V3) 
+      (node 
+        (ref C29) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 3)) 
+      (node 
+        (ref C36) 
+        (pin 1)) 
+      (node 
+        (ref R17) 
+        (pin 1)) 
+      (node 
+        (ref L6) 
+        (pin 1)) 
+      (node 
+        (ref R15) 
+        (pin 1)) 
+      (node 
+        (ref R16) 
+        (pin 1)) 
+      (node 
+        (ref L2) 
+        (pin 1)) 
+      (node 
+        (ref C26) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 2)) 
+      (node 
+        (ref C30) 
+        (pin 1))) 
+    (net 
+      (code 29) 
+      (name "Net-(C22-Pad2)") 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref C22) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 17))) 
+    (net 
+      (code 30) 
+      (name "Net-(C23-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 64)) 
+      (node 
+        (ref C23) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 1))) 
+    (net 
+      (code 31) 
+      (name /CLK1_P) 
+      (node 
+        (ref R20) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 3)) 
+      (node 
+        (ref C37) 
+        (pin 1)) 
+      (node 
+        (ref R21) 
+        (pin 2))) 
+    (net 
+      (code 32) 
+      (name /CLK1_N) 
+      (node 
+        (ref C38) 
+        (pin 1)) 
+      (node 
+        (ref R11) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 2)) 
+      (node 
+        (ref R10) 
+        (pin 1))) 
+    (net 
+      (code 33) 
+      (name "Net-(C25-Pad1)") 
+      (node 
+        (ref L6) 
+        (pin 2)) 
+      (node 
+        (ref R20) 
+        (pin 2)) 
+      (node 
+        (ref C25) 
+        (pin 1)) 
+      (node 
+        (ref R10) 
+        (pin 2))) 
+    (net 
+      (code 34) 
+      (name /IN1_N) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 35) 
+      (name /IN1_P) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 1))) 
+    (net 
+      (code 36) 
+      (name "Net-(J11-Pad5)") 
+      (node 
+        (ref J11) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 57)) 
+      (node 
+        (ref R14) 
+        (pin 1))) 
+    (net 
+      (code 37) 
+      (name "Net-(J11-Pad6)") 
+      (node 
+        (ref U1) 
+        (pin 55)) 
+      (node 
+        (ref J11) 
+        (pin 6)) 
+      (node 
+        (ref R16) 
+        (pin 2))) 
+    (net 
+      (code 38) 
+      (name "Net-(J11-Pad7)") 
+      (node 
+        (ref U1) 
+        (pin 56)) 
+      (node 
+        (ref J11) 
+        (pin 7)) 
+      (node 
+        (ref R15) 
+        (pin 2))) 
+    (net 
+      (code 39) 
+      (name "Net-(C12-Pad2)") 
+      (node 
+        (ref J4) 
+        (pin 5)) 
+      (node 
+        (ref R5) 
+        (pin 2)) 
+      (node 
+        (ref C12) 
+        (pin 2))) 
+    (net 
+      (code 40) 
+      (name "Net-(C9-Pad2)") 
+      (node 
+        (ref R4) 
+        (pin 1)) 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref C9) 
+        (pin 2))) 
+    (net 
+      (code 41) 
+      (name "Net-(C8-Pad2)") 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref C8) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 5))) 
+    (net 
+      (code 42) 
+      (name "Net-(C4-Pad2)") 
+      (node 
+        (ref J2) 
+        (pin 5)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref R1) 
+        (pin 2))) 
+    (net 
+      (code 43) 
+      (name "Net-(C24-Pad2)") 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref C24) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 4)) 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref R9) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 8)) 
+      (node 
+        (ref J6) 
+        (pin 7)) 
+      (node 
+        (ref J6) 
+        (pin 6)) 
+      (node 
+        (ref J6) 
+        (pin 5))) 
+    (net 
+      (code 44) 
+      (name /IN8_P) 
+      (node 
+        (ref U1) 
+        (pin 15)) 
+      (node 
+        (ref C17) 
+        (pin 1))) 
+    (net 
+      (code 45) 
+      (name /D1_P) 
+      (node 
+        (ref J6) 
+        (pin A2)) 
+      (node 
+        (ref U1) 
+        (pin 50))) 
+    (net 
+      (code 46) 
+      (name /D2_P) 
+      (node 
+        (ref U1) 
+        (pin 48)) 
+      (node 
+        (ref J6) 
+        (pin A5))) 
+    (net 
+      (code 47) 
+      (name /D2_N) 
+      (node 
+        (ref U1) 
+        (pin 47)) 
+      (node 
+        (ref J6) 
+        (pin A6))) 
+    (net 
+      (code 48) 
+      (name /D3_P) 
+      (node 
+        (ref J6) 
+        (pin A8)) 
+      (node 
+        (ref U1) 
+        (pin 46))) 
+    (net 
+      (code 49) 
+      (name /D3_N) 
+      (node 
+        (ref U1) 
+        (pin 45)) 
+      (node 
+        (ref J6) 
+        (pin A9))) 
+    (net 
+      (code 50) 
+      (name /D4_P) 
+      (node 
+        (ref U1) 
+        (pin 44)) 
+      (node 
+        (ref J6) 
+        (pin A13))) 
+    (net 
+      (code 51) 
+      (name /D4_N) 
+      (node 
+        (ref U1) 
+        (pin 43)) 
+      (node 
+        (ref J6) 
+        (pin A14))) 
+    (net 
+      (code 52) 
+      (name /DCLK_P) 
+      (node 
+        (ref U1) 
+        (pin 42)) 
+      (node 
+        (ref J6) 
+        (pin A16))) 
+    (net 
+      (code 53) 
+      (name /DCLK_N) 
+      (node 
+        (ref J6) 
+        (pin A17)) 
+      (node 
+        (ref U1) 
+        (pin 41))) 
+    (net 
+      (code 54) 
+      (name /D5_P) 
+      (node 
+        (ref J6) 
+        (pin B14)) 
+      (node 
+        (ref U1) 
+        (pin 38))) 
+    (net 
+      (code 55) 
+      (name /D5_N) 
+      (node 
+        (ref J6) 
+        (pin B13)) 
+      (node 
+        (ref U1) 
+        (pin 37))) 
+    (net 
+      (code 56) 
+      (name /D6_P) 
+      (node 
+        (ref U1) 
+        (pin 36)) 
+      (node 
+        (ref J6) 
+        (pin B9))) 
+    (net 
+      (code 57) 
+      (name /D6_N) 
+      (node 
+        (ref J6) 
+        (pin B8)) 
+      (node 
+        (ref U1) 
+        (pin 35))) 
+    (net 
+      (code 58) 
+      (name /D7_P) 
+      (node 
+        (ref U1) 
+        (pin 34)) 
+      (node 
+        (ref J6) 
+        (pin B6))) 
+    (net 
+      (code 59) 
+      (name /D7_N) 
+      (node 
+        (ref J6) 
+        (pin B5)) 
+      (node 
+        (ref U1) 
+        (pin 33))) 
+    (net 
+      (code 60) 
+      (name /D8_P) 
+      (node 
+        (ref J6) 
+        (pin B3)) 
+      (node 
+        (ref U1) 
+        (pin 32))) 
+    (net 
+      (code 61) 
+      (name /D8_N) 
+      (node 
+        (ref J6) 
+        (pin B2)) 
+      (node 
+        (ref U1) 
+        (pin 31))) 
+    (net 
+      (code 62) 
+      (name /IN2_N) 
+      (node 
+        (ref C6) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 4))) 
+    (net 
+      (code 63) 
+      (name /IN3_P) 
+      (node 
+        (ref C7) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 5))) 
+    (net 
+      (code 64) 
+      (name /IN3_N) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref C8) 
+        (pin 1))) 
+    (net 
+      (code 65) 
+      (name /IN4_N) 
+      (node 
+        (ref C10) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 8))) 
+    (net 
+      (code 66) 
+      (name /IN2_P) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref C5) 
+        (pin 1))) 
+    (net 
+      (code 67) 
+      (name /IN4_P) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref C9) 
+        (pin 1))) 
+    (net 
+      (code 68) 
+      (name VCC) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 3)) 
+      (node 
+        (ref C27) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref J1) 
+        (pin 3))) 
+    (net 
+      (code 69) 
+      (name "Net-(C6-Pad2)") 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref C6) 
+        (pin 2))) 
+    (net 
+      (code 70) 
+      (name "Net-(C3-Pad2)") 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 6)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 71) 
+      (name "Net-(C14-Pad2)") 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref C14) 
+        (pin 2))) 
+    (net 
+      (code 72) 
+      (name "Net-(C11-Pad2)") 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref C11) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 6))) 
+    (net 
+      (code 73) 
+      (name "Net-(C18-Pad2)") 
+      (node 
+        (ref C18) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 2))) 
+    (net 
+      (code 74) 
+      (name "Net-(C15-Pad2)") 
+      (node 
+        (ref R7) 
+        (pin 1)) 
+      (node 
+        (ref C15) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 6))) 
+    (net 
+      (code 75) 
+      (name /IN6_P) 
+      (node 
+        (ref C13) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 11))) 
+    (net 
+      (code 76) 
+      (name /IN6_N) 
+      (node 
+        (ref U1) 
+        (pin 12)) 
+      (node 
+        (ref C14) 
+        (pin 1))) 
+    (net 
+      (code 77) 
+      (name /IN8_N) 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref C18) 
+        (pin 1))) 
+    (net 
+      (code 78) 
+      (name "Net-(C10-Pad2)") 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2))) 
+    (net 
+      (code 79) 
+      (name "Net-(C7-Pad2)") 
+      (node 
+        (ref C7) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 6)) 
+      (node 
+        (ref R3) 
+        (pin 1))) 
+    (net 
+      (code 80) 
+      (name /CLK_P) 
+      (node 
+        (ref U1) 
+        (pin 21)) 
+      (node 
+        (ref C37) 
+        (pin 2))) 
+    (net 
+      (code 81) 
+      (name /CLK_N) 
+      (node 
+        (ref C38) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 22))) 
+    (net 
+      (code 82) 
+      (name AVDD3V3) 
+      (node 
+        (ref U1) 
+        (pin 18)) 
+      (node 
+        (ref L2) 
+        (pin 2))) 
+    (net 
+      (code 83) 
+      (name AVDD) 
+      (node 
+        (ref C21) 
+        (pin 1)) 
+      (node 
+        (ref C20) 
+        (pin 1)) 
+      (node 
+        (ref C19) 
+        (pin 1)) 
+      (node 
+        (ref L3) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 62)) 
+      (node 
+        (ref U1) 
+        (pin 19)) 
+      (node 
+        (ref U1) 
+        (pin 24)))))
