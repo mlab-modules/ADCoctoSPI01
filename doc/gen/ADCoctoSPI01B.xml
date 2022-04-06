@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ADCoctoSPI01B.kicad_sch</source>
-    <date>Wed Apr  6 12:39:43 2022</date>
+    <date>Wed Apr  6 13:23:45 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -713,7 +713,7 @@
     </comp>
     <comp ref="U1">
       <value>AFE5801</value>
-      <footprint>Mlab_IO:QFN-64-1EP_9x9mm_Pitch0.5mm</footprint>
+      <footprint>Mlab_IO:VQFN-64_9.15x9.15mm_EP_7.5x7.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/afe5801.pdf</datasheet>
       <libsource lib="ADCoctoSPI01A-rescue" part="AFE5801-DENGS_lib" description=""/>
       <property name="Sheetname" value=""/>

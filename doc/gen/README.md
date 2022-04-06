@@ -40,10 +40,10 @@ Track width: 0.25 mm (10 mils)
 
 - By design rules: 0.15 mm (6 mils)
 
-Drill: 0.4 mm (16 mils)
+Drill: 0.2 mm (8 mils)
 
 - Vias: 0.4 mm (16 mils) [Design: 0.3 mm (12 mils)]
-- Pads: 0.74 mm (29 mils)
+- Pads: 0.2 mm (8 mils)
 
 Via: 0.75/0.4 mm (30/16 mils)
 
@@ -51,9 +51,9 @@ Via: 0.75/0.4 mm (30/16 mils)
 - Micro via: no [0.2/0.1 mm (8/4 mils)]
 - Burried/blind via: no
 
-Outer Annular Ring: 0.35 mm (14 mils)
+Outer Annular Ring: 0.2 mm (8 mils)
 
-- By design rules: 0.36 mm (14 mils)
+- By design rules: 0.2 mm (8 mils)
 
 Eurocircuits class: 4C
 
@@ -91,6 +91,7 @@ Used vias:
 
 Holes (excluding vias):
 
+- 0.2 mm (8 mils) (45)
 - 0.74 mm (29 mils) (35)
 - 0.8 mm (31 mils) (8)
 - 0.89 mm (35 mils) (20)
