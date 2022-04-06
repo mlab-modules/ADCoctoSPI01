@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/ADCoctoSPI01B.kicad_sch</source>
+    <date>Wed Apr  6 07:56:15 2022</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ADCoctoSPI01A</title>
+        <company>Mlab.cz</company>
+        <rev/>
+        <date>2022-03-24</date>
+        <source>ADCoctoSPI01B.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Serial LVDS output 8-channel 12bit ADC"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF/10V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/sk/katalog/#search=100uf+1210&amp;s_field=accuracy&amp;s_order=DESC&amp;id_category=113185&amp;page=1</datasheet>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055623093</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059daa64d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999d4a4</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a04d1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a052b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0878</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0924</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a09e2</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0a4a</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0ab5</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0b1d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0b8a</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0bfa</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0f5d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a0fcf</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a104a</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a10c6</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a1145</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a13ec5</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a14419</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a14541</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a37b41</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a3569f</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a73aad3</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9ba3f8</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a29025</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a29d1b</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a28164</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a2b611</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a2a2a7</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a26787</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d27358</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d2754d</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d27637</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d2662a</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d3558a</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d35686</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d78b42</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>M4</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="D_Small-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055622fb7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>+5V</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HEADER_2x03_PARALLEL-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d65bc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SATA7-67491-1030</value>
+      <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999d1ae</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>SATA7-67491-1030</value>
+      <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a3865</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>SATA7-67491-1030</value>
+      <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a42a4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SATA7-67491-1030</value>
+      <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599a435a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SAS_mini_1888174</value>
+      <footprint>Connector_SATA_SAS:SAS-mini_TEConnectivity_1888174_Vertical</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="SAS_mini_1888174-MLAB_CONNECTORS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000599b64a6 00000000-0000-0000-0000-0000599b2682</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>SATA7-67491-1030</value>
+      <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d358b2</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>HEADER_1x02</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HEADER_1x02-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a81e03d</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>HEADER_1x02</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HEADER_1x02-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a81dd54</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>HEADER_1x02</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HEADER_1x02-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d7ae1a</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>HEADER_2x04</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HEADER_2x04-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a043f43</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>BLM21PG300SN1D</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/en/details/dl0805-0.47/smd-0805-inductors/ferrocore/dl0805-r47/</datasheet>
+      <libsource lib="ADCoctoSPI01A-rescue" part="L-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a25c29</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>BLM21PG300SN1D</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/en/details/dl0805-0.47/smd-0805-inductors/ferrocore/dl0805-r47/</datasheet>
+      <libsource lib="ADCoctoSPI01A-rescue" part="L-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a254af</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>BLM21PG300SN1D</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="L-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9b9cf9</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HOLE-MLAB_MECHANICAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7549</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HOLE-MLAB_MECHANICAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7628</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HOLE-MLAB_MECHANICAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7646</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="HOLE-MLAB_MECHANICAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999d4eb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999d6a7</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999ec86</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999ecd6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999f1a7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999f91f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999f99b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999fa2b</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a73a855</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>127</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a60dede</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>83</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a8110fe</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d95e9e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d91f98</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d91b4a</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d9016a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d90077</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059d8fe45</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>127</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a60dca7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>83</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a8984d3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AFE5801</value>
+      <footprint>Mlab_IO:QFN-64-1EP_9x9mm_Pitch0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/afe5801.pdf</datasheet>
+      <libsource lib="ADCoctoSPI01A-rescue" part="AFE5801-DENGS_lib" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005999bbf0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM1117MP-1,8/NO</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="LD1117S18TR-RESCUE-ADCoctoSPI01A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a1f3e1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM1117MP-3,3/NO</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <libsource lib="ADCoctoSPI01A-rescue" part="LD1117S33TR-RESCUE-ADCoctoSPI01A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059a1f502</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ADCoctoSPI01A-rescue" part="AFE5801-DENGS_lib">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AFE5801-DENGS_lib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1P" type="input"/>
+        <pin num="2" name="IN1M" type="input"/>
+        <pin num="3" name="IN2P" type="input"/>
+        <pin num="4" name="IN2M" type="input"/>
+        <pin num="5" name="IN3P" type="input"/>
+        <pin num="6" name="IN3M" type="input"/>
+        <pin num="7" name="IN4P" type="input"/>
+        <pin num="8" name="IN4M" type="input"/>
+        <pin num="9" name="IN5P" type="input"/>
+        <pin num="10" name="IN5M" type="input"/>
+        <pin num="11" name="IN6P" type="input"/>
+        <pin num="12" name="IN6M" type="input"/>
+        <pin num="13" name="IN7P" type="input"/>
+        <pin num="14" name="IN7M" type="input"/>
+        <pin num="15" name="IN8P" type="input"/>
+        <pin num="16" name="IN8M" type="input"/>
+        <pin num="17" name="VCM" type="input"/>
+        <pin num="18" name="AVDD3" type="input"/>
+        <pin num="19" name="AVDD18" type="input"/>
+        <pin num="20" name="AVSS" type="input"/>
+        <pin num="21" name="CLKINP" type="input"/>
+        <pin num="22" name="CLKINM" type="input"/>
+        <pin num="23" name="AVSS" type="input"/>
+        <pin num="24" name="AVDD18" type="input"/>
+        <pin num="25" name="VREF_IN" type="input"/>
+        <pin num="26" name="NC" type="input"/>
+        <pin num="27" name="NC" type="input"/>
+        <pin num="28" name="DVDD18" type="input"/>
+        <pin num="29" name="DVSS" type="input"/>
+        <pin num="30" name="DVDD18" type="input"/>
+        <pin num="31" name="D8M" type="input"/>
+        <pin num="32" name="D8P" type="input"/>
+        <pin num="33" name="D7M" type="input"/>
+        <pin num="34" name="D7P" type="input"/>
+        <pin num="35" name="D6M" type="input"/>
+        <pin num="36" name="D6P" type="input"/>
+        <pin num="37" name="D5M" type="input"/>
+        <pin num="38" name="D5P" type="input"/>
+        <pin num="39" name="FCLKM" type="input"/>
+        <pin num="40" name="FCLKP" type="input"/>
+        <pin num="41" name="DCLKM" type="input"/>
+        <pin num="42" name="DCLKP" type="input"/>
+        <pin num="43" name="D4M" type="input"/>
+        <pin num="44" name="D4P" type="input"/>
+        <pin num="45" name="D3M" type="input"/>
+        <pin num="46" name="D3P" type="input"/>
+        <pin num="47" name="D2M" type="input"/>
+        <pin num="48" name="D2P" type="input"/>
+        <pin num="49" name="D1M" type="input"/>
+        <pin num="50" name="D1P" type="input"/>
+        <pin num="51" name="DVDD18" type="input"/>
+        <pin num="52" name="DVSS" type="input"/>
+        <pin num="53" name="SDOUT" type="input"/>
+        <pin num="54" name="SEN" type="input"/>
+        <pin num="55" name="SDATA" type="input"/>
+        <pin num="56" name="SCLK" type="input"/>
+        <pin num="57" name="RESET" type="input"/>
+        <pin num="58" name="SYNC" type="input"/>
+        <pin num="59" name="PDN" type="input"/>
+        <pin num="60" name="NC" type="input"/>
+        <pin num="61" name="AVSS" type="input"/>
+        <pin num="62" name="AVDD18" type="input"/>
+        <pin num="63" name="AVSS" type="input"/>
+        <pin num="64" name="VCM" type="input"/>
+        <pin num="65" name="AVSS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="C_Small-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="D_Small-device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="HEADER_1x02-MLAB_HEADER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_1x02-MLAB_HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="HEADER_2x03_PARALLEL-MLAB_HEADER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL-MLAB_HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="HEADER_2x04-MLAB_HEADER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x04-MLAB_HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="HOLE-MLAB_MECHANICAL">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE-MLAB_MECHANICAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="L-device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="LD1117S18TR-RESCUE-ADCoctoSPI01A">
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S18TR-RESCUE-ADCoctoSPI01A</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="LD1117S33TR-RESCUE-ADCoctoSPI01A">
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR-RESCUE-ADCoctoSPI01A</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="R-device">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="SAS_mini_1888174-MLAB_CONNECTORS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SAS_mini_1888174-MLAB_CONNECTORS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="A1" name="A1" type="bidirectional"/>
+        <pin num="A2" name="A2" type="bidirectional"/>
+        <pin num="A3" name="A3" type="bidirectional"/>
+        <pin num="A4" name="A4" type="bidirectional"/>
+        <pin num="A5" name="A5" type="bidirectional"/>
+        <pin num="A6" name="A6" type="bidirectional"/>
+        <pin num="A7" name="A7" type="bidirectional"/>
+        <pin num="A8" name="A8" type="bidirectional"/>
+        <pin num="A9" name="A9" type="bidirectional"/>
+        <pin num="A10" name="A10" type="bidirectional"/>
+        <pin num="A11" name="A11" type="bidirectional"/>
+        <pin num="A12" name="A12" type="bidirectional"/>
+        <pin num="A13" name="A13" type="bidirectional"/>
+        <pin num="A14" name="A14" type="bidirectional"/>
+        <pin num="A15" name="A15" type="bidirectional"/>
+        <pin num="A16" name="A16" type="bidirectional"/>
+        <pin num="A17" name="A17" type="bidirectional"/>
+        <pin num="A18" name="A18" type="bidirectional"/>
+        <pin num="B1" name="B1" type="bidirectional"/>
+        <pin num="B2" name="B2" type="bidirectional"/>
+        <pin num="B3" name="B3" type="bidirectional"/>
+        <pin num="B4" name="B4" type="bidirectional"/>
+        <pin num="B5" name="B5" type="bidirectional"/>
+        <pin num="B6" name="B6" type="bidirectional"/>
+        <pin num="B7" name="B7" type="bidirectional"/>
+        <pin num="B8" name="B8" type="bidirectional"/>
+        <pin num="B9" name="B9" type="bidirectional"/>
+        <pin num="B10" name="B10" type="bidirectional"/>
+        <pin num="B11" name="B11" type="bidirectional"/>
+        <pin num="B12" name="B12" type="bidirectional"/>
+        <pin num="B13" name="B13" type="bidirectional"/>
+        <pin num="B14" name="B14" type="bidirectional"/>
+        <pin num="B15" name="B15" type="bidirectional"/>
+        <pin num="B16" name="B16" type="bidirectional"/>
+        <pin num="B17" name="B17" type="bidirectional"/>
+        <pin num="B18" name="B18" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SATA7-67491-1030-MLAB_CONNECTORS</field>
+        <field name="Footprint">MOLEX_67491-1030</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ADCoctoSPI01A-rescue">
+      <uri>/github/workspace/hw/sch_pcb/ADCoctoSPI01B-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK1_N">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/CLK1_P">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/CLK_N">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="CLKINM" pintype="input"/>
+    </net>
+    <net code="4" name="/CLK_P">
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="CLKINP" pintype="input"/>
+    </net>
+    <net code="5" name="/D1_N">
+      <node ref="J6" pin="A3" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="U1" pin="49" pinfunction="D1M" pintype="input"/>
+    </net>
+    <net code="6" name="/D1_P">
+      <node ref="J6" pin="A2" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U1" pin="50" pinfunction="D1P" pintype="input"/>
+    </net>
+    <net code="7" name="/D2_N">
+      <node ref="J6" pin="A6" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="U1" pin="47" pinfunction="D2M" pintype="input"/>
+    </net>
+    <net code="8" name="/D2_P">
+      <node ref="J6" pin="A5" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="U1" pin="48" pinfunction="D2P" pintype="input"/>
+    </net>
+    <net code="9" name="/D3_N">
+      <node ref="J6" pin="A9" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="U1" pin="45" pinfunction="D3M" pintype="input"/>
+    </net>
+    <net code="10" name="/D3_P">
+      <node ref="J6" pin="A8" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="U1" pin="46" pinfunction="D3P" pintype="input"/>
+    </net>
+    <net code="11" name="/D4_N">
+      <node ref="J6" pin="A14" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="U1" pin="43" pinfunction="D4M" pintype="input"/>
+    </net>
+    <net code="12" name="/D4_P">
+      <node ref="J6" pin="A13" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="U1" pin="44" pinfunction="D4P" pintype="input"/>
+    </net>
+    <net code="13" name="/D5_N">
+      <node ref="J6" pin="B13" pinfunction="B13" pintype="bidirectional"/>
+      <node ref="U1" pin="37" pinfunction="D5M" pintype="input"/>
+    </net>
+    <net code="14" name="/D5_P">
+      <node ref="J6" pin="B14" pinfunction="B14" pintype="bidirectional"/>
+      <node ref="U1" pin="38" pinfunction="D5P" pintype="input"/>
+    </net>
+    <net code="15" name="/D6_N">
+      <node ref="J6" pin="B8" pinfunction="B8" pintype="bidirectional"/>
+      <node ref="U1" pin="35" pinfunction="D6M" pintype="input"/>
+    </net>
+    <net code="16" name="/D6_P">
+      <node ref="J6" pin="B9" pinfunction="B9" pintype="bidirectional"/>
+      <node ref="U1" pin="36" pinfunction="D6P" pintype="input"/>
+    </net>
+    <net code="17" name="/D7_N">
+      <node ref="J6" pin="B5" pinfunction="B5" pintype="bidirectional"/>
+      <node ref="U1" pin="33" pinfunction="D7M" pintype="input"/>
+    </net>
+    <net code="18" name="/D7_P">
+      <node ref="J6" pin="B6" pinfunction="B6" pintype="bidirectional"/>
+      <node ref="U1" pin="34" pinfunction="D7P" pintype="input"/>
+    </net>
+    <net code="19" name="/D8_N">
+      <node ref="J6" pin="B2" pinfunction="B2" pintype="bidirectional"/>
+      <node ref="U1" pin="31" pinfunction="D8M" pintype="input"/>
+    </net>
+    <net code="20" name="/D8_P">
+      <node ref="J6" pin="B3" pinfunction="B3" pintype="bidirectional"/>
+      <node ref="U1" pin="32" pinfunction="D8P" pintype="input"/>
+    </net>
+    <net code="21" name="/DCLK_N">
+      <node ref="J6" pin="A17" pinfunction="A17" pintype="bidirectional"/>
+      <node ref="U1" pin="41" pinfunction="DCLKM" pintype="input"/>
+    </net>
+    <net code="22" name="/DCLK_P">
+      <node ref="J6" pin="A16" pinfunction="A16" pintype="bidirectional"/>
+      <node ref="U1" pin="42" pinfunction="DCLKP" pintype="input"/>
+    </net>
+    <net code="23" name="/FCLK_N">
+      <node ref="J6" pin="B16" pinfunction="B16" pintype="bidirectional"/>
+      <node ref="U1" pin="39" pinfunction="FCLKM" pintype="input"/>
+    </net>
+    <net code="24" name="/FCLK_P">
+      <node ref="J6" pin="B17" pinfunction="B17" pintype="bidirectional"/>
+      <node ref="U1" pin="40" pinfunction="FCLKP" pintype="input"/>
+    </net>
+    <net code="25" name="/IN1_N">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN1M" pintype="input"/>
+    </net>
+    <net code="26" name="/IN1_P">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN1P" pintype="input"/>
+    </net>
+    <net code="27" name="/IN2_N">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IN2M" pintype="input"/>
+    </net>
+    <net code="28" name="/IN2_P">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN2P" pintype="input"/>
+    </net>
+    <net code="29" name="/IN3_N">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IN3M" pintype="input"/>
+    </net>
+    <net code="30" name="/IN3_P">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IN3P" pintype="input"/>
+    </net>
+    <net code="31" name="/IN4_N">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IN4M" pintype="input"/>
+    </net>
+    <net code="32" name="/IN4_P">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IN4P" pintype="input"/>
+    </net>
+    <net code="33" name="/IN5_N">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IN5M" pintype="input"/>
+    </net>
+    <net code="34" name="/IN5_P">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IN5P" pintype="input"/>
+    </net>
+    <net code="35" name="/IN6_N">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IN6M" pintype="input"/>
+    </net>
+    <net code="36" name="/IN6_P">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IN6P" pintype="input"/>
+    </net>
+    <net code="37" name="/IN7_N">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IN7M" pintype="input"/>
+    </net>
+    <net code="38" name="/IN7_P">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IN7P" pintype="input"/>
+    </net>
+    <net code="39" name="/IN8_N">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IN8M" pintype="input"/>
+    </net>
+    <net code="40" name="/IN8_P">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IN8P" pintype="input"/>
+    </net>
+    <net code="41" name="AVDD">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="AVDD18" pintype="input"/>
+      <node ref="U1" pin="24" pinfunction="AVDD18" pintype="input"/>
+      <node ref="U1" pin="62" pinfunction="AVDD18" pintype="input"/>
+    </net>
+    <net code="42" name="AVDD3V3">
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AVDD3" pintype="input"/>
+    </net>
+    <net code="43" name="DVDD">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="DVDD18" pintype="input"/>
+      <node ref="U1" pin="30" pinfunction="DVDD18" pintype="input"/>
+      <node ref="U1" pin="51" pinfunction="DVDD18" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="44" name="DVDD3V3">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="45" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="J1" pin="5" pintype="input"/>
+      <node ref="J1" pin="6" pintype="input"/>
+      <node ref="J10" pin="2" pintype="input"/>
+      <node ref="J11" pin="8" pintype="input"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J6" pin="A1" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="J6" pin="A12" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="J6" pin="A15" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="J6" pin="A18" pinfunction="A18" pintype="bidirectional"/>
+      <node ref="J6" pin="A4" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="J6" pin="A7" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="J6" pin="B1" pinfunction="B1" pintype="bidirectional"/>
+      <node ref="J6" pin="B12" pinfunction="B12" pintype="bidirectional"/>
+      <node ref="J6" pin="B15" pinfunction="B15" pintype="bidirectional"/>
+      <node ref="J6" pin="B18" pinfunction="B18" pintype="bidirectional"/>
+      <node ref="J6" pin="B4" pinfunction="B4" pintype="bidirectional"/>
+      <node ref="J6" pin="B7" pinfunction="B7" pintype="bidirectional"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J8" pin="2" pintype="input"/>
+      <node ref="J9" pin="2" pintype="input"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M2" pin="1" pintype="input"/>
+      <node ref="M3" pin="1" pintype="input"/>
+      <node ref="M4" pin="1" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="AVSS" pintype="input"/>
+      <node ref="U1" pin="23" pinfunction="AVSS" pintype="input"/>
+      <node ref="U1" pin="29" pinfunction="DVSS" pintype="input"/>
+      <node ref="U1" pin="52" pinfunction="DVSS" pintype="input"/>
+      <node ref="U1" pin="61" pinfunction="AVSS" pintype="input"/>
+      <node ref="U1" pin="63" pinfunction="AVSS" pintype="input"/>
+      <node ref="U1" pin="65" pinfunction="AVSS" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="46" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(C22-Pad2)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="VCM" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="input"/>
+      <node ref="U1" pin="64" pinfunction="VCM" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="input"/>
+      <node ref="J6" pin="2" pintype="input"/>
+      <node ref="J6" pin="3" pintype="input"/>
+      <node ref="J6" pin="4" pintype="input"/>
+      <node ref="J6" pin="5" pintype="input"/>
+      <node ref="J6" pin="6" pintype="input"/>
+      <node ref="J6" pin="7" pintype="input"/>
+      <node ref="J6" pin="8" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(C39-Pad2)">
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pintype="input"/>
+      <node ref="U1" pin="25" pinfunction="VREF_IN" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="PDN" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2" pintype="input"/>
+      <node ref="U1" pin="53" pinfunction="SDOUT" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(J11-Pad3)">
+      <node ref="J11" pin="3" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="SYNC" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="SEN" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(J11-Pad5)">
+      <node ref="J11" pin="5" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="57" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(J11-Pad6)">
+      <node ref="J11" pin="6" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="SDATA" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(J11-Pad7)">
+      <node ref="J11" pin="7" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="56" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="74" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="J1" pin="4" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="75" name="unconnected-(J6-PadA10)">
+      <node ref="J6" pin="A10" pinfunction="A10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J6-PadA11)">
+      <node ref="J6" pin="A11" pinfunction="A11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J6-PadB10)">
+      <node ref="J6" pin="B10" pinfunction="B10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J6-PadB11)">
+      <node ref="J6" pin="B11" pinfunction="B11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J7-Pad5)">
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J7-Pad6)">
+      <node ref="J7" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-Pad60)">
+      <node ref="U1" pin="60" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
