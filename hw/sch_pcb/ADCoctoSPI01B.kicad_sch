@@ -3300,7 +3300,7 @@
     (property "Value" "AFE5801" (id 1) (at 116.205 111.76 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Mlab_IO:QFN-64-1EP_9x9mm_Pitch0.5mm" (id 2) (at 99.695 62.23 0)
+    (property "Footprint" "Mlab_IO:VQFN-64_9.15x9.15mm_EP_7.5x7.5mm" (id 2) (at 99.695 62.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/afe5801.pdf" (id 3) (at 99.695 62.23 0)
@@ -6182,7 +6182,7 @@
       (reference "R21") (unit 1) (value "83") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005999bbf0"
-      (reference "U1") (unit 1) (value "AFE5801") (footprint "Mlab_IO:QFN-64-1EP_9x9mm_Pitch0.5mm")
+      (reference "U1") (unit 1) (value "AFE5801") (footprint "Mlab_IO:VQFN-64_9.15x9.15mm_EP_7.5x7.5mm")
     )
     (path "/00000000-0000-0000-0000-000059a1f3e1"
       (reference "U2") (unit 1) (value "LM1117MP-1,8/NO") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
