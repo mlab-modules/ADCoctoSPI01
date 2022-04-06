@@ -2,6 +2,10 @@ name: Kicad - production files generator
 
 on:
   push:
+    paths:
+      - '**.kicad_pcb'
+      - '**.kicad_sch'
+      - '**.kicad_pro'
   workflow_dispatch:
   
 env:
@@ -249,7 +253,9 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
     
-    - run: git pull --force --rebase || true
+    - run: |
+        git pull --force --rebase || true
+        git submodule update --remote || true
 
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
