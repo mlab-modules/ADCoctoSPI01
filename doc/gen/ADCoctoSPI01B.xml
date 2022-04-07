@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ADCoctoSPI01B.kicad_sch</source>
-    <date>Wed Apr  6 13:23:45 2022</date>
+    <date>Thu Apr  7 13:02:50 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,10 +25,14 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>100uF/10V</value>
+      <value>100uF/6V3</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
       <datasheet>https://www.tme.eu/sk/katalog/#search=100uf+1210&amp;s_field=accuracy&amp;s_order=DESC&amp;id_category=113185&amp;page=1</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbb</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbb"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -37,7 +41,11 @@
     <comp ref="C2">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -46,7 +54,11 @@
     <comp ref="C3">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -55,7 +67,11 @@
     <comp ref="C4">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -64,7 +80,11 @@
     <comp ref="C5">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -73,7 +93,11 @@
     <comp ref="C6">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -82,7 +106,11 @@
     <comp ref="C7">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -91,7 +119,11 @@
     <comp ref="C8">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -100,7 +132,11 @@
     <comp ref="C9">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -109,7 +145,11 @@
     <comp ref="C10">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -118,7 +158,11 @@
     <comp ref="C11">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -127,7 +171,11 @@
     <comp ref="C12">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -136,7 +184,11 @@
     <comp ref="C13">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -145,7 +197,11 @@
     <comp ref="C14">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -154,7 +210,11 @@
     <comp ref="C15">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,7 +223,11 @@
     <comp ref="C16">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -172,7 +236,11 @@
     <comp ref="C17">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -181,7 +249,11 @@
     <comp ref="C18">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -190,7 +262,11 @@
     <comp ref="C19">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -199,7 +275,11 @@
     <comp ref="C20">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,7 +288,11 @@
     <comp ref="C21">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -217,7 +301,11 @@
     <comp ref="C22">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -226,7 +314,11 @@
     <comp ref="C23">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -235,16 +327,24 @@
     <comp ref="C24">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a73aad3</tstamps>
     </comp>
     <comp ref="C25">
-      <value>100n</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,7 +353,11 @@
     <comp ref="C26">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -262,7 +366,11 @@
     <comp ref="C27">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -271,7 +379,11 @@
     <comp ref="C28">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -280,7 +392,11 @@
     <comp ref="C29">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -289,7 +405,11 @@
     <comp ref="C30">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -298,7 +418,11 @@
     <comp ref="C31">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -307,7 +431,11 @@
     <comp ref="C33">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -316,7 +444,11 @@
     <comp ref="C34">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -325,7 +457,11 @@
     <comp ref="C35">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -334,7 +470,11 @@
     <comp ref="C36">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -343,7 +483,11 @@
     <comp ref="C37">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -352,7 +496,11 @@
     <comp ref="C38">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -361,7 +509,11 @@
     <comp ref="C39">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="C_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -370,7 +522,11 @@
     <comp ref="D1">
       <value>M4</value>
       <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88ac</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="D_Small-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -388,7 +544,11 @@
     <comp ref="J2">
       <value>SATA7-67491-1030</value>
       <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a7b</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8a7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -397,7 +557,11 @@
     <comp ref="J3">
       <value>SATA7-67491-1030</value>
       <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a7b</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8a7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -406,7 +570,11 @@
     <comp ref="J4">
       <value>SATA7-67491-1030</value>
       <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a7b</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8a7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -415,7 +583,11 @@
     <comp ref="J5">
       <value>SATA7-67491-1030</value>
       <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a7b</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8a7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -424,7 +596,11 @@
     <comp ref="J6">
       <value>SAS_mini_1888174</value>
       <footprint>Connector_SATA_SAS:SAS-mini_TEConnectivity_1888174_Vertical</footprint>
+      <fields>
+        <field name="UST_ID">624ede60592c2d62176d5a96</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="SAS_mini_1888174-MLAB_CONNECTORS" description=""/>
+      <property name="UST_ID" value="624ede60592c2d62176d5a96"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -433,7 +609,11 @@
     <comp ref="J7">
       <value>SATA7-67491-1030</value>
       <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a7b</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="SATA7-67491-1030-MLAB_CONNECTORS" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8a7b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -479,7 +659,11 @@
       <value>BLM21PG300SN1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://www.tme.eu/en/details/dl0805-0.47/smd-0805-inductors/ferrocore/dl0805-r47/</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87fd</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="L-device" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87fd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -489,7 +673,11 @@
       <value>BLM21PG300SN1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://www.tme.eu/en/details/dl0805-0.47/smd-0805-inductors/ferrocore/dl0805-r47/</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87fd</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="L-device" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87fd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -498,7 +686,11 @@
     <comp ref="L6">
       <value>BLM21PG300SN1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87fd</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="L-device" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87fd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -543,7 +735,11 @@
     <comp ref="R1">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -552,7 +748,11 @@
     <comp ref="R2">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -561,7 +761,11 @@
     <comp ref="R3">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -570,7 +774,11 @@
     <comp ref="R4">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -579,7 +787,11 @@
     <comp ref="R5">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -588,7 +800,11 @@
     <comp ref="R6">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -597,7 +813,11 @@
     <comp ref="R7">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -606,7 +826,11 @@
     <comp ref="R8">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -615,25 +839,37 @@
     <comp ref="R9">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a73a855</tstamps>
     </comp>
     <comp ref="R10">
-      <value>127</value>
+      <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cd08b17128750448e4542b1</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5cd08b17128750448e4542b1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a60dede</tstamps>
     </comp>
     <comp ref="R11">
-      <value>83</value>
+      <value>82</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8955</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8955"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -642,7 +878,11 @@
     <comp ref="R12">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -651,7 +891,11 @@
     <comp ref="R13">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -660,7 +904,11 @@
     <comp ref="R14">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -669,7 +917,11 @@
     <comp ref="R15">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -678,7 +930,11 @@
     <comp ref="R16">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -687,25 +943,37 @@
     <comp ref="R17">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000059d8fe45</tstamps>
     </comp>
     <comp ref="R20">
-      <value>127</value>
+      <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cd08b17128750448e4542b1</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5cd08b17128750448e4542b1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a60dca7</tstamps>
     </comp>
     <comp ref="R21">
-      <value>83</value>
+      <value>82</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8955</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="R-device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8955"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -715,7 +983,11 @@
       <value>AFE5801</value>
       <footprint>Mlab_IO:VQFN-64_9.15x9.15mm_EP_7.5x7.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/afe5801.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">624edf21592c2d62176d5abc</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="AFE5801-DENGS_lib" description=""/>
+      <property name="UST_ID" value="624edf21592c2d62176d5abc"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -724,7 +996,11 @@
     <comp ref="U2">
       <value>LM1117MP-1,8/NO</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8af6</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="LD1117S18TR-RESCUE-ADCoctoSPI01A" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8af6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -733,7 +1009,11 @@
     <comp ref="U3">
       <value>LM1117MP-3,3/NO</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8af9</field>
+      </fields>
       <libsource lib="ADCoctoSPI01A-rescue" part="LD1117S33TR-RESCUE-ADCoctoSPI01A" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8af9"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ADCoctoSPI01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
