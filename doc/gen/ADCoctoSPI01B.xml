@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ADCoctoSPI01B.kicad_sch</source>
-    <date>Wed May 18 17:35:57 2022</date>
+    <date>Wed May 18 19:38:42 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1570,8 +1570,7 @@
       <node ref="J11" pin="2" pintype="input"/>
       <node ref="J11" pin="5" pintype="input"/>
       <node ref="J11" pin="6" pintype="input"/>
-      <node ref="J8" pin="8" pintype="input"/>
-      <node ref="J9" pin="2" pintype="input"/>
+      <node ref="J8" pin="2" pintype="input"/>
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M1" pin="1" pintype="input"/>
       <node ref="M2" pin="1" pintype="input"/>
@@ -1737,34 +1736,34 @@
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="59" pinfunction="PDN" pintype="input"/>
     </net>
-    <net code="69" name="Net-(J8-Pad2)">
-      <node ref="J8" pin="2" pintype="input"/>
-      <node ref="U1" pin="53" pinfunction="SDOUT" pintype="input"/>
-    </net>
-    <net code="70" name="Net-(J8-Pad3)">
+    <net code="69" name="Net-(J8-Pad3)">
       <node ref="J8" pin="3" pintype="input"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U1" pin="58" pinfunction="SYNC" pintype="input"/>
     </net>
-    <net code="71" name="Net-(J8-Pad4)">
+    <net code="70" name="Net-(J8-Pad4)">
       <node ref="J8" pin="4" pintype="input"/>
-      <node ref="R18" pin="2" pintype="passive"/>
-      <node ref="U1" pin="54" pinfunction="SEN" pintype="input"/>
+      <node ref="U1" pin="53" pinfunction="SDOUT" pintype="input"/>
     </net>
-    <net code="72" name="Net-(J8-Pad5)">
+    <net code="71" name="Net-(J8-Pad5)">
       <node ref="J8" pin="5" pintype="input"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U1" pin="57" pinfunction="RESET" pintype="input"/>
     </net>
-    <net code="73" name="Net-(J8-Pad6)">
+    <net code="72" name="Net-(J8-Pad6)">
       <node ref="J8" pin="6" pintype="input"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U1" pin="55" pinfunction="SDATA" pintype="input"/>
     </net>
-    <net code="74" name="Net-(J8-Pad7)">
+    <net code="73" name="Net-(J8-Pad7)">
       <node ref="J8" pin="7" pintype="input"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U1" pin="56" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(J8-Pad8)">
+      <node ref="J8" pin="8" pintype="input"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="SEN" pintype="input"/>
     </net>
     <net code="75" name="VCC">
       <node ref="C25" pin="2" pintype="passive"/>
@@ -1781,25 +1780,28 @@
     <net code="77" name="unconnected-(J7-Pad6)">
       <node ref="J7" pin="6" pinfunction="6" pintype="passive+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(J10-PadA10)">
+    <net code="78" name="unconnected-(J9-Pad2)">
+      <node ref="J9" pin="2" pintype="input"/>
+    </net>
+    <net code="79" name="unconnected-(J10-PadA10)">
       <node ref="J10" pin="A10" pinfunction="A10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(J10-PadA11)">
+    <net code="80" name="unconnected-(J10-PadA11)">
       <node ref="J10" pin="A11" pinfunction="A11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(J10-PadB10)">
+    <net code="81" name="unconnected-(J10-PadB10)">
       <node ref="J10" pin="B10" pinfunction="B10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(J10-PadB11)">
+    <net code="82" name="unconnected-(J10-PadB11)">
       <node ref="J10" pin="B11" pinfunction="B11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U1-Pad26)">
+    <net code="83" name="unconnected-(U1-Pad26)">
       <node ref="U1" pin="26" pinfunction="NC" pintype="input+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U1-Pad27)">
+    <net code="84" name="unconnected-(U1-Pad27)">
       <node ref="U1" pin="27" pinfunction="NC" pintype="input+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-Pad60)">
+    <net code="85" name="unconnected-(U1-Pad60)">
       <node ref="U1" pin="60" pinfunction="NC" pintype="input+no_connect"/>
     </net>
   </nets>
