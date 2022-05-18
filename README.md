@@ -1,6 +1,7 @@
-[Czech](./README.cs.md)
+[Czech version Readme](./README.cs.md)
+
 <!--- module --->
-# ADCoctoSPI01A - Octal input high-speed ADC
+# ADCoctoSPI01B - Octal input high-speed ADC
 
 <!--- Emodule --->
 
