@@ -42,10 +42,10 @@ Track width: 0.2 mm (8 mils)
 
 Drill: 0.2 mm (8 mils)
 
-- Vias: 0.2 mm (8 mils) [Design: 0.2 mm (8 mils)]
+- Vias: 0.4 mm (16 mils) [Design: 0.2 mm (8 mils)]
 - Pads: 0.2 mm (8 mils)
 
-Via: 0.4/0.2 mm (16/8 mils)
+Via: 0.75/0.4 mm (30/16 mils)
 
 - By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: no [0.2/0.1 mm (8/4 mils)]
@@ -55,7 +55,7 @@ Outer Annular Ring: 0.2 mm (8 mils)
 
 - By design rules: 0.2 mm (8 mils)
 
-Eurocircuits class: 4E
+Eurocircuits class: 4C
 
 
 # General stats
@@ -75,12 +75,12 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (27) defined: yes
-- 0.25 mm (10 mils) (4) defined: no
+- 0.2 mm (8 mils) (41) defined: yes
+- 0.25 mm (10 mils) (2) defined: no
 - 0.28 mm (11 mils) (2507) defined: no
-- 0.3 mm (12 mils) (177) defined: yes
-- 0.4 mm (16 mils) (673) defined: yes
-- 0.5 mm (20 mils) (49) defined: yes
+- 0.3 mm (12 mils) (147) defined: yes
+- 0.4 mm (16 mils) (691) defined: yes
+- 0.5 mm (20 mils) (35) defined: yes
 - 0.8 mm (31 mils) (7) defined: no
 - 1.0 mm (39 mils) (15) defined: yes
 
@@ -89,9 +89,8 @@ Defined vias:
 
 Used vias:
 
-- 0.4/0.2 mm (16/8 mils) (Count: 1, Aspect: 4.0 A) defined: no
-- 0.75/0.4 mm (30/16 mils) (Count: 56, Aspect: 2.1 A) defined: no
-- 0.8/0.4 mm (31/16 mils) (Count: 237, Aspect: 2.0 A) defined: no
+- 0.75/0.4 mm (30/16 mils) (Count: 54, Aspect: 2.1 A) defined: no
+- 0.8/0.4 mm (31/16 mils) (Count: 246, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 

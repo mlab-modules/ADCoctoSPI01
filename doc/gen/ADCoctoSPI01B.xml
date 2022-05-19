@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ADCoctoSPI01B.kicad_sch</source>
-    <date>Thu May 19 09:34:56 2022</date>
+    <date>Thu May 19 11:17:03 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1510,6 +1510,7 @@
       <node ref="U1" pin="62" pinfunction="AVDD18" pintype="input"/>
     </net>
     <net code="42" name="AVDD3V3">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="AVDD3" pintype="input"/>
     </net>
@@ -1530,7 +1531,6 @@
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C36" pin="2" pintype="passive"/>
       <node ref="C37" pin="1" pintype="passive"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
@@ -1539,7 +1539,6 @@
       <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="45" name="GND">
-      <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C25" pin="1" pintype="passive"/>
@@ -1589,6 +1588,7 @@
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C32" pin="2" pintype="passive"/>
@@ -1609,6 +1609,7 @@
       <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J9" pin="2" pintype="input"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
@@ -1780,28 +1781,25 @@
     <net code="77" name="unconnected-(J7-Pad6)">
       <node ref="J7" pin="6" pinfunction="6" pintype="passive+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(J9-Pad2)">
-      <node ref="J9" pin="2" pintype="input"/>
-    </net>
-    <net code="79" name="unconnected-(J10-PadA10)">
+    <net code="78" name="unconnected-(J10-PadA10)">
       <node ref="J10" pin="A10" pinfunction="A10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(J10-PadA11)">
+    <net code="79" name="unconnected-(J10-PadA11)">
       <node ref="J10" pin="A11" pinfunction="A11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(J10-PadB10)">
+    <net code="80" name="unconnected-(J10-PadB10)">
       <node ref="J10" pin="B10" pinfunction="B10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(J10-PadB11)">
+    <net code="81" name="unconnected-(J10-PadB11)">
       <node ref="J10" pin="B11" pinfunction="B11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U1-Pad26)">
+    <net code="82" name="unconnected-(U1-Pad26)">
       <node ref="U1" pin="26" pinfunction="NC" pintype="input+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-Pad27)">
+    <net code="83" name="unconnected-(U1-Pad27)">
       <node ref="U1" pin="27" pinfunction="NC" pintype="input+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U1-Pad60)">
+    <net code="84" name="unconnected-(U1-Pad60)">
       <node ref="U1" pin="60" pinfunction="NC" pintype="input+no_connect"/>
     </net>
   </nets>
