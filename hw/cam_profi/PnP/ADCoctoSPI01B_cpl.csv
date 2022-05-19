@@ -3,7 +3,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C23","100nF","C_0603_1608Metric",111.2520,-110.2480,90.0000,bottom
 "C24","100nF","C_0603_1608Metric",91.3384,-70.9676,0.0000,bottom
 "C25","100nF","C_0603_1608Metric",106.2667,-69.0000,0.0000,bottom
-"C26","100nF","C_0603_1608Metric",89.8000,-96.4250,-90.0000,bottom
+"C26","100nF","C_0603_1608Metric",89.6500,-96.4500,-90.0000,bottom
 "C27","100nF","C_0603_1608Metric",96.3000,-108.6250,90.0000,bottom
 "C28","100nF","C_0603_1608Metric",92.2750,-96.1000,0.0000,bottom
 "C29","100nF","C_0603_1608Metric",91.0000,-106.9000,90.0000,bottom
@@ -16,7 +16,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C38","10uF","C_0805_2012Metric",90.3000,-74.2823,-90.0000,bottom
 "L1","BLM21PG300SN1D","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",90.7000,-123.4000,-90.0000,bottom
 "L2","BLM21PG300SN1D","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",89.5000,-92.9750,-90.0000,bottom
-"L3","BLM21PG300SN1D","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",86.2500,-97.5500,-90.0000,bottom
+"L3","BLM21PG300SN1D","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",86.3000,-96.9500,-90.0000,bottom
 "R11","10k","R_0603_1608Metric",90.2000,-79.1750,-90.0000,bottom
 "R12","10k","R_0603_1608Metric",88.4000,-85.6750,-90.0000,bottom
 "R13","10k","R_0603_1608Metric",88.4000,-88.6750,90.0000,bottom
