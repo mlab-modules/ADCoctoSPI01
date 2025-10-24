@@ -4,6 +4,7 @@ github_description: Octal input high-speed ADC with LVDS parallel output.
 github_repo: ADCoctoSPI01
 github_url: https://github.com/mlab-modules/ADCoctoSPI01
 homepage: false
+image_title: doc/gen/img/ADCoctoSPI01-top.png
 images:
 - doc/src/img/bottom.jpg
 - doc/src/img/ADCoctoSPI01A.jpg
