@@ -8,12 +8,17 @@ images:
 - doc/src/img/bottom.jpg
 - doc/src/img/ADCoctoSPI01A.jpg
 - doc/img/ADCoctoSPI01A_QRcode.png
-- doc/gen/img/ADCoctoSPI01B-top.png
-- doc/gen/img/ADCoctoSPI01B-bottom.png
+- doc/gen/img/ADCoctoSPI01-top.png
+- doc/gen/img/ADCoctoSPI01-bottom.png
 - doc/src/img/ADCoctoSPI01A_render.png
-- doc/gen/ADCoctoSPI01B-schematic.svg
+- doc/gen/ADCoctoSPI01-schematic.svg
+- doc/gen/img/ADCoctoSPI01-top.svg
+- doc/gen/img/ADCoctoSPI01-bottom.svg
+- hw/cam_profi/assembly/ADCoctoSPI01-assembly_page_02.svg
+- hw/cam_profi/assembly/ADCoctoSPI01-assembly_page_01.svg
 mark: 50
-mod_scheme: doc/gen/ADCoctoSPI01B-schematic.pdf
+mod_ibom: hw/cam_profi/ADCoctoSPI01-ibom.html
+mod_scheme: doc/gen/ADCoctoSPI01-schematic.pdf
 status: 0
 tags:
 - adc
@@ -25,4 +30,4 @@ tags:
 - mlab-kicad
 - pcb
 title: ADCoctoSPI01
-updated: '2025-10-24T14:19:53.499694+00:00'
+updated: '2025-10-24T14:22:05.392058+00:00'
