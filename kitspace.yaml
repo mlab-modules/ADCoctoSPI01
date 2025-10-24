@@ -5,4 +5,4 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/ADCoctoSPI01
-summary: Octal input high-speed ADC with LVDS parallel output.
+summary: Octal input high-speed ADC with serial LVDS output.

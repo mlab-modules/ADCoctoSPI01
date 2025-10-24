@@ -1,6 +1,6 @@
-description: Octal input high-speed ADC with LVDS parallel output.
+description: Octal input high-speed ADC with serial LVDS output.
 github_branch: ADCoctoSPI01B
-github_description: Octal input high-speed ADC with LVDS parallel output.
+github_description: Octal input high-speed ADC with serial LVDS output.
 github_repo: ADCoctoSPI01
 github_url: https://github.com/mlab-modules/ADCoctoSPI01
 homepage: false
@@ -30,4 +30,4 @@ tags:
 - minisas
 - sata
 title: ADCoctoSPI01
-updated: '2025-10-24T14:43:17.585473+00:00'
+updated: '2025-10-24T14:56:42.865104+00:00'
