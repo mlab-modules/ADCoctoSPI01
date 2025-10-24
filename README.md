@@ -33,6 +33,7 @@ This module is ideally used in combination with the [MPPB01 baseboard for Parall
 | Input Referred Noise            | 5.5 nV/√Hz        | At VGA gain = 31 dB                  |
 | Signal-to-Noise Ratio (SNR)     | ~65 dBFS          | Typical at 65 MSPS, -1 dBFS input    |
 | Total Harmonic Distortion (THD) | -65 dBFS          | At 5 MHz input, max gain             |
+| Signal-to-Noise and Distortion Ratio (SINAD) | ~68 dB            |                                      |
 | Antialias Filter Cutoff         | 7.5 / 10 / 14 MHz | Programmable                         |
 | Common-Mode Input Voltage (VCM) | 1.6 V             | Recommended bias for AC coupling     |
 | Input Capacitance               | 2 pF              | Differential input                   |
